@@ -1,0 +1,27 @@
+type Query{
+    client: [Client]
+    clientsByName(nome: String): [Client]
+    address: [Address]
+    addressByCEP(cep: String): [Address]
+}
+
+type Client{
+
+    id: ID
+    nome: String
+    endereco: Address
+}
+
+type Address{
+    id: ID
+    cep: String
+    logradouro: String
+    complemento: String
+    bairro: String
+    localidade: String
+    uf: String
+    ibge: String
+    gia: String
+    ddd: String
+    siafi: String
+}
