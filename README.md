@@ -1,2 +1,2 @@
 # graphql
-Projeto simples de gerenciamento de endereços com Feign e a API viacep.
+Simple address management project with Feign and the viacep API.
